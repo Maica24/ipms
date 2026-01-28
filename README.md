@@ -1,15 +1,16 @@
-# Intellectual Property Management System (IPMS)
+# React + Vite
 
-A centralized platform for submitting, tracking, and managing intellectual property applications (Copyright, Trademark, Industrial Design, Utility Model). Designed with dedicated portals for Inventors, Consultants, and Administrators.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Key Features
+Currently, two official plugins are available:
 
-* **Role-Based Access:** Secure dashboards for Admins, Consultants, and Inventors.
-* **IP Submission & Tracking:** Automated workflows for various IP types.
-* **Real-Time Analytics:** Visual dashboards for monitoring submission trends and approval rates.
-* **Document Management:** Secure file handling for official forms and design assets.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-```bash
-npm install
+## React Compiler
 
-npm run dev
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
